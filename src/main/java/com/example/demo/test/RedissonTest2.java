@@ -19,7 +19,7 @@ public class RedissonTest2 {
         Date date1 = new Date();
         System.out.println("date1 "+date1.getTime());
         float l=(float) (date1.getTime()-timestamp.getTime())/(1000*3600*24);
-        ///321321
+        ///312321
         System.out.println("天数间隔："+l);
         System.out.println(l>60);
 
